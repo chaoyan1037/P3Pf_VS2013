@@ -1,9 +1,12 @@
 P3P(f) on Windows VS2013.
+
 The original software is implemented on Linux, and have been tested on Mac OS, 
 however it need some modifications to work on Windows, both source code and 
 CMakeLists.txt.
 Specifically, I modify the CMakeLists.txt so that CMake automatically include
 and link the glog and gflags libraries. For details, please refer to the CMakeLists.
+
+For your usage, you need only modify the Eigen include path.
 --------------------------------------------------------------------------------
 
 
